@@ -1,0 +1,15 @@
+Premisa:
+    Hacer un software montado en un servidor que pueda convertir Webm a mp4 para pasarlos en el guats.
+
+1.- Como hacer un main:
+   * https://realpython.com/python-main-function/
+
+2.- Como navegar directorios bien en python con la libreria os:
+   * https://towardsdatascience.com/simple-trick-to-work-with-relative-paths-in-python-c072cdc9acb9
+   * https://stackoverflow.com/questions/9856683/using-pythons-os-path-how-do-i-go-up-one-directory
+
+3.- Como abrir un archivo: 
+   * https://www.w3schools.com/python/python_file_open.asp
+
+
+
