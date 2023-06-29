@@ -12,4 +12,9 @@ Premisa:
    * https://www.w3schools.com/python/python_file_open.asp
 
 
+4.- Lo de git otra vez y venv de python:
+   * https://www.w3schools.com/git/git_getstarted.asp?remote=github
+   * https://medium.com/wealthy-bytes/the-easiest-way-to-use-a-python-virtual-environment-with-git-401e07c39cde
+   * https://github.com/github/gitignore/blob/main/Python.gitignore
+   * cuando intentes hacer un push, clone u otra cosa te va a pedir github que te autentiques.
 
