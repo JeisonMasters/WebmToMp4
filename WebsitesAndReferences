@@ -18,3 +18,10 @@ Premisa:
    * https://github.com/github/gitignore/blob/main/Python.gitignore
    * cuando intentes hacer un push, clone u otra cosa te va a pedir github que te autentiques.
 
+5.- Documentacion de python de open()
+   * https://docs.python.org/3/library/functions.html#open
+   * https://docs.python.org/3/glossary.html#term-file-object
+   * https://docs.python.org/3/library/io.html#module-io
+   * https://docs.python.org/3/library/functions.html#open
+   * https://docs.python.org/3/library/io.html#io.TextIOBase
+
