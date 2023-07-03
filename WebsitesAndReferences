@@ -25,3 +25,20 @@ Premisa:
    * https://docs.python.org/3/library/functions.html#open
    * https://docs.python.org/3/library/io.html#io.TextIOBase
 
+6.- FFMPEG
+   * https://www.youtube.com/watch?v=W7SIRsIAYao&ab_channel=FVSJtechnologies
+   * https://www.youtube.com/watch?v=bxl6mOOpE08&ab_channel=FVSJtechnologies
+   * https://ffmpeg.org/ffmpeg.html#toc-Main-options
+   * https://pixelpoint.io/blog/web-optimized-video-ffmpeg/
+
+   * comando: ffmpeg -i INPUT -c:v libx265 -crf 22 -tag:v hvc1 -movflags faststart -an -preset medium OUTPUT
+   
+      -i = input file puede tener ruta completa
+      -c:v = codec de video, libx265 = codec h256 codec mas perron de mp4
+      -crf 22 = calidad constante (menor es mejor) filesize*calidad
+      -tag:v hvc1 = compatibilidad con aifon 
+      -movflags faststart = weboptimized
+      -preset medium = eficiencia de compresion filesize*tiempo
+      opcional: -vf unsharp=3:3:1.0 | unsharp=5:5:1.0 lumasharpen (major numero mas sharpen), -an = quitar audio
+
+
